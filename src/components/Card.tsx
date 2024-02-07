@@ -28,7 +28,6 @@ const Card = ({ name, techUsed, description, link }: ProjectProps) => {
                     </ul>
                     <a className={Styles.projectLink} href={link}>Link</a>
                 </div>
-                {/* <img src={photo} className={Styles.images} alt="Photos" /> */}
             </div >
         </motion.div>
     );

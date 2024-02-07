@@ -11,7 +11,10 @@
 }
 
 .icons{
+    position: absolute;
     font-size: 68px;
+    left: 43%;
+    top: 21%;
 }
 
 .paragraph{
@@ -21,7 +24,7 @@
     color: rgb(234, 229, 229);
     font-weight: 900;
     position: absolute;
-    left: 0%;
+    left: 10%;
     top: 40%;
 }
 .ContactMePara{

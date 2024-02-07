@@ -7,8 +7,9 @@ display: flex;
     left: 41%;
     top:25%;
     font-size: 25px;
-    color: rgb(210, 206, 206);
-    letter-spacing: 1px;
+    text-wrap: wrap;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
     font-weight:700;
 }
 
@@ -24,7 +25,7 @@ display: flex;
 }
 .paragraph{
     font-size: 50px;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     font-family: sans-serif;
     font-weight: 900;
     position: absolute;
