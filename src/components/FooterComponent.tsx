@@ -4,11 +4,6 @@ import { SiLeetcode } from "react-icons/si";
 import Styles from "../components/CssModuleComponent/FooterStyle.module.css";
 
 const FooterComponent = () => {
-    // const githubenv = ;
-    // const linkedInenv = process.env.React_APP_LINKEDIN_URL;
-    // const leetCodeenv = process.env.React_APP_LEETCODE_URL;
-    // const twitterenv = process.env.React_APP_TWITTER_URL;
-
 
     return (
         <div className={Styles.footerStyle}>
