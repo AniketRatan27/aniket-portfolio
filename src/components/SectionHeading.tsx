@@ -13,7 +13,6 @@ const SectionHeading = ({ children }: Props) => {
                 initial={{ opacity: 0.5, scale: 0.5 }}
                 transition={{ duration: 1.2 }}
                 whileInView={{ opacity: 1, scale: 1.3 }}>
-                {/* <div className={Styles.animation}></div> */}
                 {children}</motion.p>
         </>
     );
