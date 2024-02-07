@@ -1,13 +1,14 @@
 .pre {
-    background-color: #f4f4f4;
     padding:2rem;
     border-radius: 5px;
     overflow-x: auto;
     background-color: rgb(36, 47, 60);
     box-shadow: 2px 2px 12px 2px;
     margin-right: 2rem;
+    position: absolute;
     box-sizing: border-box;
-    height: 30%;
+    height: 7%;
+    left: 57%;
   }
   
 .code {
