@@ -32,7 +32,7 @@ function App() {
         <ContactPage />
       </section>
 
-      <footer>
+      <footer className={Styles.footerDiv}>
         <FooterComponent />
       </footer>
     </>
