@@ -1,9 +1,8 @@
-import React, { createElement } from "react";
-import { FaReact ,FaJava ,FaHtml5 ,FaCss3Alt } from "react-icons/fa";
-import { SiTypescript ,SiMysql ,SiJavascript } from "react-icons/si";
+import React from "react";
+import { FaReact ,FaJava} from "react-icons/fa";
+import { SiTypescript ,SiMysql } from "react-icons/si";
 import { CgMoreO } from "react-icons/cg";
-import photo1 from "./assets/Screenshot (13).png";
-import photo2 from "./assets/MovieProjectExample.png";
+
 
 export const skillData = [
     {

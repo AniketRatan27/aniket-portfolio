@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import Styles from "../components/CssModuleComponent/SectionHeadingStyle.module.css";
-import { ReactNode } from 'react';
 
 interface Props {
     children: string;
