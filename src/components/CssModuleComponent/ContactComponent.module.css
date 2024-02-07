@@ -69,4 +69,9 @@ a input{
     span{
         word-break: break-all;
     }
+    .icons{
+        position: absolute;
+        top: 27%;
+        left: -2%;
+    }
 }
