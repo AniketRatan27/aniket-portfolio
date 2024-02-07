@@ -1,0 +1,12 @@
+.platformLinks{
+    display: flex;
+    font-size: 25px;
+    margin-right: 3rem;
+}
+a{
+    color: black;
+    margin: 1rem;
+}
+.icons{
+    color: white;
+}

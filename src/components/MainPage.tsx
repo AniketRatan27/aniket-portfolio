@@ -3,6 +3,7 @@ import { CodeSnippetDesign } from "./CodeSnippetDesign";
 import styles from "./CssModuleComponent/MainPage.module.css";
 import { motion } from "framer-motion";
 import { BsDownload } from "react-icons/bs";
+import resume from "../assets/Aniket Ratan..pdf";
 
 const textVariants = {
     initial: {
@@ -61,10 +62,10 @@ const MainPage = () => {
                 <motion.span className={styles.Proficient} variants={textVariants}>Proficient</motion.span> in a range of technologies.<br />
 
 
-                <motion.button className={styles.mainButton}
+                <a href={resume} download ><motion.button className={styles.mainButton}
                     variants={textVariants}
                     animate="scrollButton"
-                    transition={{ duration: 1, }}>Download Resume <BsDownload className={styles.icons} /></motion.button>
+                    transition={{ duration: 1, }}>Download Resume <BsDownload className={styles.icons} /></motion.button></a>
             </motion.div>
 
             <CodeSnippetDesign />

@@ -1,11 +1,11 @@
 import { HStack, Link } from "@chakra-ui/react"
-import MobileMenuResize from "./MobileMenuResize"
 import ListMobileResponsive from "./ListMobileResponsive"
+
 
 const Navbar = () => {
     return (
         <>
-            <HStack padding='10px' justifyContent="space-between" backgroundColor="blueviolet">
+            <HStack padding='10px' justifyContent="space-around" backgroundColor="blueviolet">
                 <Link
                     color='whitesmoke'
                     fontWeight='extrabold'
@@ -17,7 +17,6 @@ const Navbar = () => {
                 </Link>
                 <HStack marginEnd={1} mt={3}>
                     <ListMobileResponsive />
-                    <MobileMenuResize />
                 </HStack>
             </HStack >
         </>
