@@ -10,7 +10,7 @@ const Navbar = () => {
                     color='whitesmoke'
                     fontWeight='extrabold'
                     fontSize='27px'
-                    ms={28}
+                    ms={65}
                     mt={3}
                 >
                     Aniket.
