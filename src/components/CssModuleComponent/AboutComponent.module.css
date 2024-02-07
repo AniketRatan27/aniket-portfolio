@@ -1,0 +1,63 @@
+.HStack{
+display: flex;
+}
+
+.Aboute{
+    position: absolute;
+    left: 41%;
+    top:25%;
+    font-size: 25px;
+    color: rgb(210, 206, 206);
+    letter-spacing: 1px;
+    font-weight:700;
+}
+
+.AkPhoto{
+    border-radius: 20px;
+   position: absolute;
+   left:3%;
+   top: 20%;
+   height: 75%;
+   width: 32%;
+   background-color: rgba(247, 255, 161, 0.982);
+   box-shadow: 2px 2px 12px 2px;
+}
+.paragraph{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    font-weight: 900;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 43%;
+    top: 3%;
+}
+
+@media only screen and (max-width: 480px){
+    .HStack{
+        display: flex;
+        flex-direction:row;
+    }
+    .paragraph{
+        position: absolute;
+        font-size: 39px;
+        left: 23%;
+        top: 0%;
+    }
+    .Aboute{
+        width: 95%;
+        height: 50%;
+        position: absolute;
+        top: 52%;
+        left: 5%;
+        font-size: 14px;
+        text-wrap: wrap;
+    }
+    .AkPhoto{
+        position: absolute;
+        top: 11%;
+        left: 7%;
+        width: 80%;
+        height: 38%;
+    }
+}

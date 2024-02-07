@@ -1,0 +1,50 @@
+html{
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+section{
+    height: 100vh;
+    background:linear-gradient(to right, #6616b2, #426491, #8126d6);
+    overflow: hidden;
+}
+
+.sectionOne{
+    width:100%;
+    margin-top: 0;
+}
+
+.sectionTwo{
+    width: 100%;
+    position: relative;
+}
+
+.sectionThree{
+    width: 100%;
+    position: relative;
+}
+.sectionFour{
+    width:100%;
+    position: relative;
+    height: 100vh;
+}
+
+.sectionFive{
+    width:100%;
+    position: relative;
+    height: 80vh;
+}
+footer{
+    height: 20vh;
+    width: 100%;
+    background-color: rgba(200, 200, 200, 0.014); 
+}

@@ -1,0 +1,40 @@
+.footerStyle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.paragraph{
+    font-size: 24px;
+}
+
+.Links{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+.platformLinks{
+    display: flex;
+}
+a{
+margin: 1rem;
+}
+
+@media only screen and (max-width:480px) {
+    
+    .paragraph{
+        font-size: 15px;
+        text-wrap: nowrap;
+    }
+
+    .footerStyle{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .platformLinks{
+        font-size: 20px;
+    }
+
+}

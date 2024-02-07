@@ -1,0 +1,68 @@
+.mainContact{
+    position: absolute;
+    width: 100%;
+    top:30%;
+    margin-left:6rem;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+}
+
+.icons{
+    font-size: 68px;
+}
+
+.paragraph{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    color: rgb(234, 229, 229);
+    font-weight: 900;
+    position: absolute;
+    left: 0%;
+    top: 40%;
+}
+.ContactMePara{
+    margin-left:30rem;
+}
+
+a input{
+    font-size: 36px;
+    margin-top: 2rem;
+    padding: 0.2rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 480px){
+    .mainContact{
+        margin-left: 3.3rem;
+        width: 86%;
+        display: flex;
+        flex-direction: column;
+    }
+    .ContactMePara{
+        top: 30%;
+        left: 0%;
+        font-size: 17px;
+        margin-left: 0rem;
+    }
+    a input{
+        font-size: 20px;
+    }
+
+    .paragraph{
+        position: absolute;
+        font-size: 37px;
+        top: 10%;
+        left: 20%;
+    }
+    .para{
+        text-wrap: wrap;
+    }
+    span{
+        word-break: break-all;
+    }
+}
